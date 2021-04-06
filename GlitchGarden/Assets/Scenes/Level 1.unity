@@ -185,36 +185,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2623594818037406060, guid: 91eb879c59d104a4d807c93a56f7c55a, type: 3}
   m_PrefabInstance: {fileID: 6392437}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &507701257
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 507701258}
-  m_Layer: 0
-  m_Name: Gun
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &507701258
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507701257}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.57, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4776010187853330255}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &596835194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -678,30 +648,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccee59b5d6d5cb1468e29e36ebdce55f, type: 3}
---- !u!1 &4776010187853330251 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4776010188192443194, guid: ccee59b5d6d5cb1468e29e36ebdce55f, type: 3}
-  m_PrefabInstance: {fileID: 4776010187853330250}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4776010187853330252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4776010187853330251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a97ed179f4e8744a8ec9f8d823ee165, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 3176325049886355625, guid: 0b5bc7a9eb20a3f4582300803636365b, type: 3}
-  gun: {fileID: 507701257}
---- !u!4 &4776010187853330255 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4776010188192443192, guid: ccee59b5d6d5cb1468e29e36ebdce55f, type: 3}
-  m_PrefabInstance: {fileID: 4776010187853330250}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5291011807203035157
 PrefabInstance:
   m_ObjectHideFlags: 0
